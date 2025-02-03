@@ -1,3 +1,5 @@
+
+
 # UAV-based Weed Segmentation Framework for Precision Agriculture
 
 This repository contains a novel **UAV-based weed segmentation framework** designed for **precision agriculture**. The framework leverages advanced **deep learning techniques** to address common challenges in real-time weed detection, such as complex field conditions, variable lighting, and weed-crop overlap. By improving computational efficiency and segmentation accuracy, this method enables effective **weed management** while reducing herbicide dependency in agricultural settings.
@@ -14,8 +16,29 @@ This repository contains a novel **UAV-based weed segmentation framework** desig
 3. **High generalization** across diverse agricultural environments, supporting scalability and flexibility in real-world applications.
 4. **Public dataset evaluations** demonstrating superior performance over state-of-the-art methods (measured by Precision, Recall, F1-score, and mean IoU).
 
-## Datasets:
-- The datasets used for evaluation can be accessed from \href{https://github.com/CoFly-Project/CoFly-WeedDB}{CoFly-WeedDB} and \href{https://data.mendeley.com/datasets/4hh45vkp38/5}{motion blurred UAV images of sorghum fields}.
-
 ## Note on Code Availability:
 The code for this UAV-based weed segmentation framework will be made publicly available once the related paper is published. Stay tuned for updates!
+
+---
+
+## Results Comparison:
+
+We comprehensively evaluate our approach on publicly available datasets, demonstrating superior performance over existing state-of-the-art methods in terms of Precision, Recall, F1-score, and mean IoU. By addressing key limitations of current UAV-based segmentation techniques, our method advances precision weed detection, contributing to more efficient and sustainable agricultural practices.
+
+To support reproducibility and further research, the full MSEA-Net implementation is available on [GitHub](https://github.com/AkramSyed002/MSEA_Net). Additionally, the datasets used for evaluation can be accessed from [CoFly-WeedDB](https://github.com/CoFly-Project/CoFly-WeedDB) and [motion blurred UAV images of sorghum fields](https://data.mendeley.com/datasets/4hh45vkp38/5). We encourage researchers to explore and contribute to the code for agricultural applications.
+
+
+
+###  **Comparative Evaluation of MSEA-Net**
+
+\[
+\begin{array}{|l|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Mean IoU} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{IoU (Bg)} & \textbf{IoU (Crop)} & \textbf{IoU (Weed)} \\
+\hline
+\textbf{MSEA-Net} & \textbf{90.35} & \textbf{95.01} & \textbf{93.72} & \textbf{94.36} & \textbf{98.74} & \textbf{84.85} & \textbf{80.98} \\
+\hline
+\end{array}
+\]
+
+
