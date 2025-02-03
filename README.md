@@ -13,3 +13,8 @@ This repository contains a novel **UAV-based weed segmentation framework** desig
 2. **Optimized computational efficiency,** making the method feasible for real-time UAV deployment in resource-limited environments.
 3. **High generalization** across diverse agricultural environments, supporting scalability and flexibility in real-world applications.
 4. **Public dataset evaluations** demonstrating superior performance over state-of-the-art methods (measured by Precision, Recall, F1-score, and mean IoU).
+
+## Note on Code Availability:
+The code for this UAV-based weed segmentation framework will be made publicly available once the related paper is published. Stay tuned for updates!
+
+s
