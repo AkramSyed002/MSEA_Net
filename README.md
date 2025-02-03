@@ -31,14 +31,9 @@ To support reproducibility and further research, the full MSEA-Net implementatio
 
 ###  **Comparative Evaluation of MSEA-Net**
 
-\[
-\begin{array}{|l|c|c|c|c|c|c|c|c|}
-\hline
-\textbf{Model} & \textbf{Mean IoU} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{IoU (Bg)} & \textbf{IoU (Crop)} & \textbf{IoU (Weed)} \\
-\hline
-\textbf{MSEA-Net} & \textbf{90.35} & \textbf{95.01} & \textbf{93.72} & \textbf{94.36} & \textbf{98.74} & \textbf{84.85} & \textbf{80.98} \\
-\hline
-\end{array}
-\]
+| **Model**    | **Mean IoU** | **Precision** | **Recall** | **F1-Score** | **IoU (Bg)** | **IoU (Crop)** | **IoU (Weed)** |
+|--------------|--------------|---------------|------------|--------------|--------------|----------------|----------------|
+| **MSEA-Net** | **90.35**    | **95.01**     | **93.72**  | **94.36**    | **98.74**    | **84.85**      | **80.98**      |
+
 
 
