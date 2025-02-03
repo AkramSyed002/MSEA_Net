@@ -14,7 +14,8 @@ This repository contains a novel **UAV-based weed segmentation framework** desig
 3. **High generalization** across diverse agricultural environments, supporting scalability and flexibility in real-world applications.
 4. **Public dataset evaluations** demonstrating superior performance over state-of-the-art methods (measured by Precision, Recall, F1-score, and mean IoU).
 
+## Datasets:
+- The datasets used for evaluation can be accessed from \href{https://github.com/CoFly-Project/CoFly-WeedDB}{CoFly-WeedDB} and \href{https://data.mendeley.com/datasets/4hh45vkp38/5}{motion blurred UAV images of sorghum fields}.
+
 ## Note on Code Availability:
 The code for this UAV-based weed segmentation framework will be made publicly available once the related paper is published. Stay tuned for updates!
-
-
